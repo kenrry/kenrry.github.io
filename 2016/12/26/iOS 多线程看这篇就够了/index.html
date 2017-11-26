@@ -20,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="iOS系统响应机制浅析"/>
+        <meta property="og:title" content="iOS 多线程看这篇就够了"/>
     
 
     <!--Open Graph Description-->
@@ -44,7 +44,7 @@
 
     <!-- Title -->
     
-    <title>iOS系统响应机制浅析 - 七两的技术博客</title>
+    <title>iOS 多线程看这篇就够了 - 七两的技术博客</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
@@ -112,8 +112,8 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">iOS系统响应机制浅析</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2017-11-24</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">iOS 多线程看这篇就够了</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2016-12-26</p>
         </div>
     </div>
 
@@ -133,7 +133,9 @@
                     
 
                     <!-- Main Post Content -->
-                    
+                    <h1 id="iOS-多线程看这篇就够了"><a href="#iOS-多线程看这篇就够了" class="headerlink" title="iOS 多线程看这篇就够了"></a>iOS 多线程看这篇就够了</h1><p>关于自定义的NSOperation，需要实现以下的方法1.start方法：该方法必须实现，2.main:该方法可选，如果你在start方法中定义了你的任务，则  这个方法就可以不实现，但通常为了代码逻辑清晰，通常会在该方法中定                         义自己的任务3.isExecuting  isFinished 主要作用是在线程状态改变时，产生适当的KVO通知4.isConcurrent :必须覆盖并返回YES;</p>
+<h2 id="线程的调度"><a href="#线程的调度" class="headerlink" title="线程的调度"></a>线程的调度</h2><h2 id="ios多线程的实现方式"><a href="#ios多线程的实现方式" class="headerlink" title="ios多线程的实现方式"></a>ios多线程的实现方式</h2><h3 id="pthread"><a href="#pthread" class="headerlink" title="pthread"></a>pthread</h3><h3 id="nsthread"><a href="#nsthread" class="headerlink" title="nsthread"></a>nsthread</h3><h3 id="nsoperation"><a href="#nsoperation" class="headerlink" title="nsoperation"></a>nsoperation</h3><h3 id="GCD"><a href="#GCD" class="headerlink" title="GCD"></a>GCD</h3><h4 id="GCD原理深入"><a href="#GCD原理深入" class="headerlink" title="GCD原理深入"></a>GCD原理深入</h4><h2 id="同步锁问题"><a href="#同步锁问题" class="headerlink" title="同步锁问题"></a>同步锁问题</h2><h2 id="runloop的原理"><a href="#runloop的原理" class="headerlink" title="runloop的原理"></a>runloop的原理</h2><p>死锁<br>优先级反转</p>
+
                     
                     <!-- Tags Bottom -->
                     
